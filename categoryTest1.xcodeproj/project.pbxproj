@@ -14,6 +14,8 @@
 		937253441ACBE4D500EEA6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937253431ACBE4D500EEA6D5 /* Images.xcassets */; };
 		937253471ACBE4D500EEA6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937253451ACBE4D500EEA6D5 /* LaunchScreen.xib */; };
 		937253531ACBE4D500EEA6D5 /* categoryTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937253521ACBE4D500EEA6D5 /* categoryTest1Tests.m */; };
+		9372535E1ACBE56100EEA6D5 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9372535D1ACBE56100EEA6D5 /* XYZPerson.m */; };
+		937253611ACBEDF000EEA6D5 /* XYZPerson+BMI.m in Sources */ = {isa = PBXBuildFile; fileRef = 937253601ACBEDF000EEA6D5 /* XYZPerson+BMI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		9372534C1ACBE4D500EEA6D5 /* categoryTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = categoryTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937253511ACBE4D500EEA6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937253521ACBE4D500EEA6D5 /* categoryTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = categoryTest1Tests.m; sourceTree = "<group>"; };
+		9372535C1ACBE56100EEA6D5 /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		9372535D1ACBE56100EEA6D5 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		9372535F1ACBEDEF00EEA6D5 /* XYZPerson+BMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XYZPerson+BMI.h"; sourceTree = "<group>"; };
+		937253601ACBEDF000EEA6D5 /* XYZPerson+BMI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XYZPerson+BMI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		937253351ACBE4D500EEA6D5 /* categoryTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				9372539B1AD02E5500EEA6D5 /* Category */,
+				9372539A1AD02DBE00EEA6D5 /* Object */,
 				9372533A1ACBE4D500EEA6D5 /* AppDelegate.h */,
 				9372533B1ACBE4D500EEA6D5 /* AppDelegate.m */,
 				9372533D1ACBE4D500EEA6D5 /* ViewController.h */,
@@ -117,6 +125,24 @@
 				937253511ACBE4D500EEA6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9372539A1AD02DBE00EEA6D5 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				9372535C1ACBE56100EEA6D5 /* XYZPerson.h */,
+				9372535D1ACBE56100EEA6D5 /* XYZPerson.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		9372539B1AD02E5500EEA6D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9372535F1ACBEDEF00EEA6D5 /* XYZPerson+BMI.h */,
+				937253601ACBEDF000EEA6D5 /* XYZPerson+BMI.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937253611ACBEDF000EEA6D5 /* XYZPerson+BMI.m in Sources */,
+				9372535E1ACBE56100EEA6D5 /* XYZPerson.m in Sources */,
 				9372533F1ACBE4D500EEA6D5 /* ViewController.m in Sources */,
 				9372533C1ACBE4D500EEA6D5 /* AppDelegate.m in Sources */,
 				937253391ACBE4D500EEA6D5 /* main.m in Sources */,
@@ -412,6 +440,7 @@
 				937253581ACBE4D500EEA6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		937253591ACBE4D500EEA6D5 /* Build configuration list for PBXNativeTarget "categoryTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				9372535B1ACBE4D500EEA6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
